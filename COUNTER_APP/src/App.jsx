@@ -4,8 +4,6 @@ import './App.css'
 
 function App() {
   let [counter, setCounter] = useState(0);
-  let [animate, setAnimate] = useState(false);
-
   let Increment = () => {
     if (counter < 10) {
       counter = counter + 1;
